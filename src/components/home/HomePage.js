@@ -4,10 +4,36 @@ import Col from "react-bootstrap/Col";
 import Button from "react-bootstrap/Button";
 import Image from "react-bootstrap/Image";
 
+import { Amplify } from 'aws-amplify';
 
+import { withAuthenticator } from '@aws-amplify/ui-react';
+import '@aws-amplify/ui-react/styles.css';
+import config from '../../amplifyconfiguration.json';
+Amplify.configure(config);
 
-function HomePage() {
+function HomePage({ signOut }) {
   return (
+    <>
+    <div
+    style={{
+      display: "flex",
+      justifyContent: "space-between",
+      marginLeft: "0em",
+      marginRight: "0em",
+      background: "indigo",
+      width: "100%",
+    }}
+  >
+    <h1 style={{ marginLeft: "1em", color: "aliceblue" }}>
+      Welcome to Rye Technologies
+    </h1>
+    <button
+      onClick={signOut}
+      style={{ height: "90%", marginRight: "2em", marginTop: "0.75em" }}
+    >
+      Sign out
+    </button>
+  </div>
     <Container>
         <Row className="px-4 my-5">
             <Col xs={4} sm={6}>   
@@ -20,7 +46,9 @@ function HomePage() {
             </Col>
         </Row>
     </Container>
+    </>
+
   );
 }
 
-export default HomePage;   
+export default withAuthenticator(HomePage);   

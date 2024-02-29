@@ -10,7 +10,6 @@ import RegisterPage from './auth/RegisterPage';
 import Contacts from './components/contacts/Contacts';
 
 
-
 function App() {
   return (
     <div >

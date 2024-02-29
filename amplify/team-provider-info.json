@@ -10,6 +10,11 @@
       "StackName": "amplify-ryeamplifiedv7-dev-133425",
       "StackId": "arn:aws:cloudformation:ap-south-1:242771580077:stack/amplify-ryeamplifiedv7-dev-133425/33f607c0-d6c4-11ee-8cd9-06851b514006",
       "AmplifyAppId": "d2b8ux0mnom2j7"
+    },
+    "categories": {
+      "auth": {
+        "ryeamplifiedv7c68540c6": {}
+      }
     }
   }
 }
