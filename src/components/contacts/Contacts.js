@@ -14,7 +14,7 @@ function Contacts() {
       <Row>
         <Col className="px-2 my-2">
           <Card style={{ width: "18rem" }}>
-            <Card.Img variant="top" src="/img/RyeFormal3.png" />
+            <Card.Img variant="top" src="/img/RyeFormal3.png" alt="Photo"/>
             <Card.Body>
               <Card.Title>Rye Koralzkie</Card.Title>
               <Card.Text>

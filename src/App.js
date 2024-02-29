@@ -7,7 +7,7 @@ import SiteFooter from './components/Common/SiteFooter';
 import HomePage from './components/home/HomePage';
 import LoginPage from './auth/LoginPage';
 import RegisterPage from './auth/RegisterPage';
-import Contacts from './components/contacts/Contacts';
+import Contacts from './components/contacts/contacts';
 
 
 

@@ -11,7 +11,7 @@ function HomePage() {
     <Container>
         <Row className="px-4 my-5">
             <Col xs={4} sm={6}>   
-                <Image src="/img/RYELogoBlackSphere.png" fluid /> 
+                <Image src="/img/RYELogoBlackSphere.png" alt="Logo"/> 
             </Col>
             <Col sm={6}>   
                 <h1 className="font-weight-light">RYE Amplified™ Technologies</h1>
