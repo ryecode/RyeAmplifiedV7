@@ -2,6 +2,7 @@ import Container from "react-bootstrap/Container";
 import Row from "react-bootstrap/Row";
 import Col from "react-bootstrap/Col";
 import Button from "react-bootstrap/Button";
+import Image from "react-bootstrap/Image";
 
 
 
@@ -10,7 +11,7 @@ function HomePage() {
     <Container>
         <Row className="px-4 my-5">
             <Col xs={4} sm={6}>   
-                <img src="/RYELogoBLackSphere.png" alt="Logo"/> 
+                <Image src="/RYELogoBLackSphere.png" fluid alt="Logo"/> 
             </Col>
             <Col sm={6}>   
                 <h1 className="font-weight-light">RYE Amplified™ Technologies</h1>
