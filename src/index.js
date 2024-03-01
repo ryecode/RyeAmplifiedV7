@@ -5,6 +5,9 @@ import App from './App';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import { BrowserRouter } from 'react-router-dom';
 
+import { Amplify } from 'aws-amplify';
+import amplifyconfig from './amplifyconfiguration.json';
+Amplify.configure(amplifyconfig);
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
